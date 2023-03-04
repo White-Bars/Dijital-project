@@ -1,0 +1,350 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, #137058, #1a4aa1);
+/*background-image: linear-gradient(to right, #5b6b80, #c48e1e);*/
+}
+a{
+    text-decoration: none;
+}
+
+.Header__inner{
+    padding: 20px 0;
+
+}
+.Container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.Container__Item{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.Logo{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+}
+.Menu__list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Menu__link{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.fa-solid.fa-regular{
+   font-weight: 100;
+}
+.fa-regular{
+    margin: 0 20px;
+}
+#First__picture{
+   background: url("../Category/7d9f62aa06cb407c1941ed67fee04bdf.jpg");
+    min-height: 745px;
+}
+.Hero__Item{
+    position: relative;
+    height: 745px;
+}
+.Hero__item-con{
+    position: absolute;
+    width: 450px;
+    bottom: 100px;
+    right: 150px;
+}
+.Hero__desc{
+        font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+.Hero__title{
+font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+}
+.Hero__link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: black;
+    color: white;
+    padding: 5px 30px;
+    align-content: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+#category{
+    padding-top: 150px;
+}
+.row{
+    display: flex;
+    margin: 0 -30px;
+}
+.Col-6{
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 30px;
+}
+.Female__image-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -12px 0 -12px;
+}
+.Female__image-Col-6 {
+    width: 50%;
+    padding: 0 12px;
+}
+
+.Men__image{
+    height: 320px;
+    width: 100%;
+}
+.female{
+    height: 210px;
+    width: 100%;
+}
+.Category__Img-bg{
+    background: #00000050 url("../Bacground/5f10652658c105755411053203937ce8.jpg");
+    position: relative;
+    background-blend-mode: darken;
+    min-height: 557px ;
+}
+.Category__name{
+    color: #22262A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: white;
+    padding: 5px 25px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+.catalog__row{
+    display: flex;
+    margin: 0 -20px;
+}
+.Catalog__dsc{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    display: block;
+    margin-top: 35px;
+}
+.Catalog__title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+.Col-3{
+    width: 25%;
+    padding: 0 20px;
+}
+#Catalog, #Catalog__men, #Avone__Styles {
+    margin-top: 110px;
+}
+.Catalog__names{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.Catalog__top__desk{
+    margin-top: 15px;
+    margin-bottom:65px ;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+.catalog__img{
+    width: 100%;
+    height: 371px;
+}
+.Catalog__price{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+.Price{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+}
+.old{
+    color: black;
+    text-decoration: line-through;
+}
+.New{
+    color: red;
+}
+.Image__of__Avone{
+    width: 100%;
+    height: 600px;
+    margin-top: 110px;
+}
+.big{
+    width: 514px;
+    height: 451px;
+}
+.Col-32{
+    width: 50%;
+    padding: 0;
+    margin: 0 10px;
+    position: relative;
+}
+.Link__Avon{
+    color: #22262A;
+   border-bottom: 5px solid black;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+.small{
+    background: white;
+    padding: 25px 0 0 25px;
+    position: absolute;
+    left: 354px;
+    bottom: 70px;
+    width: 227px;
+    height: 281px;
+}
+.Hero__Item-Con{
+    position: absolute;
+    bottom: 175px;
+    left: 80px;
+}
+#Techen19{
+    margin-bottom: 125px;
+    min-height: 745px;
+ background: url(../Category/2020.png);
+}
+.Your__Logo{
+    font-size: 30px;
+    line-height: 50px;
+}
+.Span__Logo{
+    margin: 25px 0 25px 0;
+}
+.Address{
+    margin: 65px 0 25px 0;
+}
+.Address__wrote__form{
+    margin-left: 25px;
+}
+.email{
+    margin-bottom: 25px ;
+}
+.Email__link{
+    padding-bottom: 5px;
+    border-bottom: #22262A 2px solid;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #22262A;
+}
+.Icons__social__Media{
+    margin-top: 10px;
+}
+.fa-facebook{
+    margin-left: 20px;
+}
+.fa-twitter{
+    margin: 0 20px;
+}
+.email__updates {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #22262A;
+    margin-bottom: 25px;
+    display: block;
+}
+.email__input {
+    position: relative;
+}
+
+#email {
+    border: none;
+    width: 100%;
+    padding: 10px 25px;
+    box-shadow: 0 1px 2px #726b6b;
+    border-radius: 10px;
+    outline: none;
+}
+.btn__email {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+#email::placeholder{
+    color: #22262A;
+}
+.down__menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.down__menu-ul{
+        list-style-type: none;
+}
+
+.down__menu-title{
+    display: inline-block;
+    margin:70px 60px 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #22262A;
+}
+.down__menu-link{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #22262A;
+}
+.footer {
+    border-radius: 0 0 40px 40px;
+    padding:35px 0;
+    text-align: center;
+    background: #E7F5F8;
+
+}
+.footer__desc {
+   color: #22262A;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
